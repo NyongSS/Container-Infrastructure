@@ -1,4 +1,4 @@
-CFLAGS = -04 -Wall
+CFLAGS = -03 -Wall
 CC = gcc
 OBJS = Container-Infrastructure.o
 SRCS = Container-Infrastructure.c
