@@ -4,7 +4,7 @@ stage('Clone repository') {
 git 'https://github.com/NyongSS/Container-Infrastructure.git'
 }
 stage('Build image') {
-app = docker.build("nyongSS/prbasedtest")
+app = docker.build("nyongss/prbasedtest")
 }
 stage('Test image') {
 app.inside {
