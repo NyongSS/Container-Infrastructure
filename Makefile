@@ -8,7 +8,7 @@ Container-Infrastructure.out: $(OBJS)
 	$(CC) -o Container-Infrastructure.out $(CFLAGS) $(OBJS)
 
 Container-Infrastructure.o: $(SRCS)
-	$(CC) -c $(CFLAGS) $(OBJS)
+	$(CC) -c $(CFLAGS) $(SRCS)
 
 test: Container-Infrastructure.out
 	@echo "test fork 1GB"
